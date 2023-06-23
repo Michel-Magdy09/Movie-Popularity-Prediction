@@ -1,20 +1,22 @@
-# Movie-Popularity-Prediction 
+# Movie Recommendation System
 
-## 1. The preprocessing steps included:
+## Preprocessing Steps
 
-• Data gathering: The data was gathered from two CSV files.
-• Data split: The data was split into training and testing sets.
-• Handling outliers: Outliers were identified and replaced with the respective upper and lower limits.
-• Handling missing values: Missing values were replaced with the mean value of their respective columns.
-• Preprocessing of the original Language column using an Ordinal encoder: The Language column was encoded using an Ordinal encoder.
-• Preprocessing of the title column: The title column was preprocessed using lemmatization and sentiment analysis.
-• Preprocessing of the Original Title column: The Original Title column was preprocessed using lemmatization, stop words removal and punctuation removal.
-• Preprocessing of the tagline column: The tagline column was preprocessed using sentiment analysis.
-• Handling Columns in JSON Form: The relevant information from the JSON columns was extracted.
-• One hot encoding: Two columns were one hot encoded.
-• Word2vector: The word2vector technique was used to create feature vectors for columns containing text data.
-• Scaling: To standardize the numeric columns of X_train ('budget', 'viewer count', 'revenue', 'runtime', 'vote count', 'year', 'month', 'day').
-•	Feature Selection: Selecting feature using Pearson's Correlation Coefficient, KBest and Combining Pearson's Correlation Coefficient and KBest
+The following steps were taken to preprocess the data for building a movie recommendation system:
+
+1. Data Gathering: The data was obtained from two CSV files.
+2. Data Splitting: The data was split into training and testing sets.
+3. Handling Outliers: Outliers were identified and replaced with their respective upper and lower limits.
+4. Handling Missing Values: Missing values were replaced with the mean value of their respective columns.
+5. Encoding Language Column: The language column was encoded using an ordinal encoder.
+6. Preprocessing Title Column: The title column was preprocessed using lemmatization and sentiment analysis.
+7. Preprocessing Original Title Column: The original title column was preprocessed using lemmatization, stop words removal, and punctuation removal.
+8. Preprocessing Tagline Column: The tagline column was preprocessed using sentiment analysis.
+9. Handling Columns in JSON Form: Relevant information from JSON columns was extracted.
+10. One Hot Encoding: Two columns were one hot encoded.
+11. Word2vector: The word2vector technique was used to create feature vectors for columns containing text data.
+12. Scaling: Numeric columns of X_train ('budget', 'viewer count', 'revenue', 'runtime', 'vote count', 'year', 'month', 'day') were standardized.
+13. Feature Selection: Features were selected using Pearson's Correlation Coefficient, KBest, and a combination of Pearson's Correlation Coefficient and KBest.
 
 Pre-Processing of Production Companies and Production Countries Columns: The production companies and production countries columns were preprocessed and one hot encoded.
 The preprocessing steps were performed to improve the quality of the data and to make it more suitable for machine learning.
