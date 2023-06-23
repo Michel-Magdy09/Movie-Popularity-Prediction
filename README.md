@@ -84,6 +84,7 @@ The preprocessing steps were performed to improve the quality of the data and to
 - [Kirollos Aziz](https://github.com/kirollos-sedhom)
 
 ## Full Report
-- [Pattern Phase_1 (Regression) Report]()
+- [Pattern Phase_1 (Regression) Report]([https://github.com/Michel-Magdy09/Movie-PopularityPrediction/blob/main/Classifiction/Pattern%20Phase_2(Classification)%20Report.pdf](https://github.com/Michel-Magdy09/Movie-Popularity-Prediction/blob/main/Regression/Pattern%20Phase_1(Regression)%20Report.pdf))
+- [Pattern Phase_2 (Classification) Report](https://github.com/Michel-Magdy09/Movie-PopularityPrediction/blob/main/Classifiction/Pattern%20Phase_2(Classification)%20Report.pdf)
 
 
