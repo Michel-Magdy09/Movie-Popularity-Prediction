@@ -2,10 +2,9 @@
 
 The goal of this project is to predict the success of a movie before it is released, by analyzing various features including budget, genres, production companies, and more. The dataset used in the project includes information on over 7,000 movies, containing features such as budget, genre, homepage, keywords, original language, production companies, release date, revenue, and more.
 
-#### Dataset
+## Description
 
 The dataset consists of information on over 7,000 movies, ranging from different genres, languages, budgets, revenue, and other features, including:
-
 - Budget: Cost of making the movie
 - Genres: A list of the genres that the movie belongs to (i.e., Avatar is a movie that has several genres, some of which are action, adventure, science)
 - Homepage: URL of the movie's official website
@@ -26,9 +25,7 @@ The dataset consists of information on over 7,000 movies, ranging from different
 - Vote Average: Average movie rating from 0-10
 - Vote Count: Number of voters for the average movie rating
 
-## Description
-
-### Preprocessing Steps
+### 1. Preprocessing Steps
 
 The following steps were taken to preprocess the data for building a movie recommendation system:
 
@@ -76,4 +73,13 @@ The preprocessing steps were performed to improve the quality of the data and to
 1. Clone this repository to your local machine
 2. Install Python 3.x
 3. Install required packages using `pip install -r requirements.txt`
+
+## Contributors
+
+- [Mina Lotfy](https://github.com/MINALOTFY10)
+- [Michel Magdy](https://github.com/Michel-Magdy09)
+- [Mina Anis](https://github.com/MinaAnis7)
+- [Mary saad](https://github.com/Marysaadjousef)
+- [Mina Kalifa](https://github.com/Mina-Kalifa)
+
 
