@@ -31,7 +31,7 @@ The preprocessing steps were performed to improve the quality of the data and to
 
 
 ## 4. The effect of HyperParameter tuning 
-* The report discusses the use of hyperparameter tuning to improve the performance of three machine learning models: SVM, logistic regression, and gradient boosting.
+* Hyperparameter tuning improved the performance of three machine learning models: SVM, logistic regression, and gradient boosting.
 * For SVM, the best hyperparameters were found to be kernel='rbf', C=2.2, and gamma='scale'. This resulted in an accuracy of 0.762.
 * For logistic regression, the best hyperparameters were found to be penalty='l2', C=0.2, and solver='newton-cg'. This resulted in an accuracy of 0.74299.
 * For gradient boosting, the best hyperparameters were found to be n_estimators=44, max_depth=2, and learning_rate=0.3. This resulted in an accuracy of 0.7495881383855024.
