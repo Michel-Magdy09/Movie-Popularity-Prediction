@@ -81,5 +81,9 @@ The preprocessing steps were performed to improve the quality of the data and to
 - [Mina Anis](https://github.com/MinaAnis7)
 - [Mary saad](https://github.com/Marysaadjousef)
 - [Mina Kalifa](https://github.com/Mina-Kalifa)
+- [Kirollos Aziz](https://github.com/kirollos-sedhom)
+
+## Full Report
+- [Pattern Phase_1 (Regression) Report]()
 
 
