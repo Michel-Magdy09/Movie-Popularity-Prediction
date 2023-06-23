@@ -1,6 +1,8 @@
 # Movie Recommendation System
 
-## Preprocessing Steps
+## Description
+
+### Preprocessing Steps
 
 The following steps were taken to preprocess the data for building a movie recommendation system:
 
@@ -21,16 +23,16 @@ The following steps were taken to preprocess the data for building a movie recom
 Pre-Processing of Production Companies and Production Countries Columns: The production companies and production countries columns were preprocessed and one hot encoded.
 The preprocessing steps were performed to improve the quality of the data and to make it more suitable for machine learning.
 
-## 2. Dataset Analysis
+### 2. Dataset Analysis
 •	The dataset was analyzed to identify the most relevant features for predicting movie revenue.
 •	The following features were selected: budget, viewer count, runtime, vote count, and vote average.
 
-## 3. Models
+### 3. Models
 •	Six different models were trained to predict movie revenue: Support Vector Regression (SVR), Ridge Regression, Principal Components Regression (PCR), Elastic Net Regression, Partial Least Squares Regression (PLS), and Polynomial Regression.
 •	SVR had the highest accuracy with an R-squared score of 0.60.
 
 
-## 4. The effect of HyperParameter tuning 
+### 4. The effect of HyperParameter tuning 
 * Hyperparameter tuning improved the performance of three machine learning models: SVM, logistic regression, and gradient boosting.
 * For SVM, the best hyperparameters were found to be kernel='rbf', C=2.2, and gamma='scale'. This resulted in an accuracy of 0.762.
 * For logistic regression, the best hyperparameters were found to be penalty='l2', C=0.2, and solver='newton-cg'. This resulted in an accuracy of 0.74299.
@@ -43,4 +45,9 @@ The preprocessing steps were performed to improve the quality of the data and to
 | Logistic Regression | penalty='l2', C=0.2, solver='newton-cg' | 0.74299 |
 | Gradient Boosting | n_estimators=44, max_depth=2, learning_rate=0.3 | 0.7495881383855024 |
 
+## Installation
+
+1. Clone this repository to your local machine
+2. Install Python 3.x
+3. Install required packages using `pip install -r requirements.txt`
 
